@@ -33,8 +33,9 @@ Highlight.js will wrap word that matches the keyword in spans like e.g.
 ...
 </p>
 ```
-To remove highlights call highlight without any arguments `$('p').highlight()`. The highlight
-css class can be change like so `$('p').highlight( {keyword:'rabbit', cssClass:'my-highlight'})`.
+To remove highlights call highlight without any arguments `$('p').highlight()`.
+
+The highlight css class can be change like so `$('p').highlight( {keyword:'rabbit', cssClass:'my-highlight'})`.
 
 Demo
 ----
