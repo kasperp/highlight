@@ -38,4 +38,4 @@ css class can be change like so `$('p').highlight( {keyword:'rabbit', cssClass:'
 
 Demo
 ----
-http://demo.jkjk 
+http://kasperp.github.com/highlight/
