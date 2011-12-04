@@ -70,7 +70,6 @@ $(function () {
         $text.highlight( );
         
         equals($text.html(), 'Some test content')
-
       })
       
       test( "highlight with custom css class should be removed", function() {
@@ -82,7 +81,15 @@ $(function () {
         $text.highlight( );
         
         equals($text.html(), 'Some test content')
-
       })
+      
+      test ( "highlight can be case sensitive", function() {
+        var $text = $('<div id="text">Some test content, Test</div>')
+          , options = { keyword:'test', ignoreCase:false }
+          
+        $text.highlight(options)
+        
+        equals($text.html(), 'Some <span class="highlight">test</span> content, Test')
+      } )
 
 })
