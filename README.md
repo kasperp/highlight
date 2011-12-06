@@ -2,6 +2,10 @@ Highlight.js
 ============
 Highlight is a jQuery plugin for highlighting text on a web page.
 
+Demo
+----
+http://kasperp.github.com/highlight/
+
 Usage
 -----
 You can use highlight like this
@@ -37,6 +41,3 @@ To remove highlights call highlight without any arguments `$('p').highlight()`.
 
 The highlight css class can be change like this `$('p').highlight( {keyword:'rabbit', cssClass:'my-highlight'})`.
 
-Demo
-----
-http://kasperp.github.com/highlight/
