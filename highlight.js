@@ -12,7 +12,7 @@
       add : function( keyword ) {
         var html = this.$element.html()
           , esckeyword = $( '<div/>' ).text( keyword ).html()
-          , regexp = new RegExp( '(' + esckeyword + ')', this.ignoreCase ? 'gi' : 'g' )
+          , regexp = new RegExp( '(' + esckeyword + ')', this.options.ignoreCase ? 'gi' : 'g' )
           , highlighttmpl = '<span class=' + this.options.cssClass + '>$1</span>'
           
         this.$element.html( html.replace( regexp, highlighttmpl ) )
