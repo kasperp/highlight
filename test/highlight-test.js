@@ -93,12 +93,12 @@ $(function () {
       } )
       
       test ( "highlight can be in case sensitive", function() {
-        var $text = $('<div id="text">Some Test content, Test</div>')
-          , options = { keyword:'test', ignoreCase:false }
+        var $text = $('<div id="text">Some test content, Test</div>')
+          , options = { keyword:'test', ignoreCase:true }
           
         $text.highlight(options)
         
-        equals($text.html(), 'Some <span class="highlight">Test</span> content, Test')
+        equals($text.html(), 'Some <span class="highlight">test</span> content, <span class="highlight">Test</span>')
       } )
 
 })
