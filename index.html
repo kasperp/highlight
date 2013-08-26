@@ -3,108 +3,119 @@
 <head>
   <meta charset='utf-8'>
   <title>kasperp/highlight @ GitHub</title>
-  
-  <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-	<style>
-	  .hero-unit {
-  		background: #ddd;
-  		margin-bottom: 20px;
-  		padding: 30px;
-  	}
-	  .highlight {
-	    background-color: yellow;
-	  }
-	  .download { 
-		  float: right; 
-	  }
-	</style>
+
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background: #7f8c8d;
+      padding: 30px;
+      border-radius: 1px;
+      width: 100%;
+    }
+    .hero h1 {
+      font-size: 82px;
+      color: #f1c40f;
+    }
+    .hero p {
+      margin-bottom: 30px;
+      font-size: 16px;
+    }
+
+    .highlight {
+      background-color: #f1c40f;
+    }
+    .download {
+      margin-top: 30px;
+      float: right;
+    }
+  </style>
 </head>
 
 <body>
   <a href="https://github.com/kasperp/highlight"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
 
-	<div class="container">
 
-		<div class="download">
-      <a href="https://github.com/kasperp/highlight/zipball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/zip.png"></a>
-      <a href="https://github.com/kasperp/highlight/tarball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/tar.png"></a>
+  <div class="hero">
+    <div class="container">
+
+      <div class="download">
+        <a href="https://github.com/kasperp/highlight/zipball/master">
+          <img border="0" width="90" src="https://github.com/images/modules/download/zip.png"></a>
+        <a href="https://github.com/kasperp/highlight/tarball/master">
+          <img border="0" width="90" src="https://github.com/images/modules/download/tar.png"></a>
+      </div>
+
+      <section>
+        <div>
+          <h1>Highlight.js</h1>
+          <p>jQuery plugin for <span class="highlight">highlighting</span> text</p>
+          <a herf="https://github.com/kasperp/highlight" class="btn btn-default">Download on Github</a>
+        </div>
+      </section>
     </div>
+  </div>
 
-		<section>
-	 		<div class="hero-unit">
-	 		  <h1>Highlight.js</h1>
-	 		  <p>jQuery plugin for <span class="highlight">highlighting</span> text</p>
-				<a herf="https://github.com/kasperp/highlight" class="btn primary">Download on Github</a>
-	 		</div>
-		</section>
+  <div class="container">
 
-		<section id="demo">
-		  <div class="page-header">
-		    <h1>Demo</h1>
-		  </div>
-		  <div class="row">
-
-		  <div class="span16 columns" id="demo">
-				<input class="xlarge" id="searchterm" name="searchterm" size="30" type="text" placeholder="Start typing">
-				<br>
-				<br>
-				<p>Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversation?'</p>
-				<p>So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.</p>
-				<p>There was nothing so very remarkable in that; nor did Alice think it so very much out of the way to hear the Rabbit say to itself, 'Oh dear! Oh dear! I shall be late!' (when she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural); but when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge.</p>
-	  	</div>
-		</section>
- 		<section id="usage">
- 		  <div class="page-header">
- 		    <h1>Usage</h1>
- 		  </div>
- 		  <div class="row">
-
- 		  <div class="span16 columns" id="usage">
- 				<pre class="prettyprint linenums">
+    <section id="demo">
+      <div class="page-header">
+        <h1>Demo</h1>
+      </div>
+      <div id="demo">
+        <input class="xlarge" id="searchterm" name="searchterm" size="30" type="text" placeholder="Start typing">
+        <br>
+        <br>
+        <p>Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, 'and what is the use of a book,' thought Alice 'without pictures or conversation?'</p>
+        <p>So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.</p>
+        <p>There was nothing so very remarkable in that; nor did Alice think it so very much out of the way to hear the Rabbit say to itself, 'Oh dear! Oh dear! I shall be late!' (when she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural); but when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge.</p>
+      </div>
+    </section>
+    <section id="usage">
+      <div class="page-header">
+        <h1>Usage</h1>
+      </div>
+        <pre class="prettyprint linenums">
 $('p').highlight( 'highlight this' )
 // or
 $('p').highlight( {keyword:'highlight this', cssClass:'my-highlight'})</pre>
 
-        <h3>Options</h3>
-        <table class="table table-striped">
-					<tr>
-						<th>Name</th>
-						<th>Type</th>
-						<th>Default</th>
-						<th>Description</th>
-					</tr>
-					<tr>
-						<td>keyword</td>
-						<td>string</td>
-						<td>undefined</td>
-						<td>keyword to highlight, if undefined highlight is removed</td>
-					</tr>
-					<tr>
-						<td>cssClass</td>
-						<td>string</td>
-						<td>highlight</td>
-						<td>name of the css class to use for the highlight</td>
-					</tr>
-					<tr>
-						<td>ignoreCase</td>
-						<td>boolean</td>
-						<td>true</td>
-						<td>ignore case when matching keyword</td>
-					</tr>
-	      </table>
- 			</div>
- 		</section>
-	</div>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script src="highlight.js"></script>
-	<script>
-	$(function(){
-		$('#searchterm').on( 'keyup', function( e ) {
-			$('#demo p').highlight( $(this).val() )
-		})
-	})
-	</script>
+      <h2>Options</h2>
+      <table class="table table-striped">
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Default</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>keyword</td>
+          <td>string</td>
+          <td>undefined</td>
+          <td>keyword to highlight, if undefined highlight is removed</td>
+        </tr>
+        <tr>
+          <td>cssClass</td>
+          <td>string</td>
+          <td>highlight</td>
+          <td>name of the css class to use for the highlight</td>
+        </tr>
+        <tr>
+          <td>ignoreCase</td>
+          <td>boolean</td>
+          <td>true</td>
+          <td>ignore case when matching keyword</td>
+        </tr>
+      </table>
+    </section>
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="highlight.js"></script>
+  <script>
+  $(function(){
+    $('#searchterm').on( 'keyup', function( e ) {
+      $('#demo p').highlight( $(this).val() )
+    })
+  })
+  </script>
 </body>
 </html>
