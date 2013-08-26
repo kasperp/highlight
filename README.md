@@ -4,7 +4,7 @@ Highlight is a jQuery plugin for highlighting text on a web page.
 
 Demo
 ----
-http://kasperp.github.com/highlight/
+http://kasperp.github.io/highlight/
 
 Usage
 -----
